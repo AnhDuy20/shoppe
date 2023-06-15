@@ -1,20 +1,20 @@
-:root{
-    --primary-color:#ee4d2d;
-    --white-color:#fff;
-    --black-color:#000;
-    --text-color:#333;
-    --border-color:#dbdbdb;
+:root {
+    --primary-color: #ee4d2d;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
 
-    --header-height:120px;
-    --navbar-height:34px;
-    --header-with-search-height : calc(var(--header-height) - var(--navbar-height))
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
 }
 
-*{
+* {
     box-sizing: inherit;
 }
 
-html{
+html {
     font-size: 62.5%;
     /* 10px */
     line-height: 1.6rem;
@@ -22,42 +22,44 @@ html{
     box-sizing: border-box;
 }
 
-.grid{
+.grid {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
 }
 
-.grit__full-width{
+.grit__full-width {
     width: 100%;
 }
 
-.grit__row{
+.grit__row {
     display: flex;
     flex-wrap: wrap;
 }
 
 /* animation */
-@keyframes fadeIn{
+@keyframes fadeIn {
     from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
 
 @keyframes growth {
-    from{
+    from {
         transform: scale(var(--growth-from));
     }
-    to{
+
+    to {
         transform: scale(var(--growth-to));
     }
 }
 
 /* modal */
-.modal{
+.modal {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -67,14 +69,14 @@ html{
     animation: fadeIn linear 0.1s;
 }
 
-.modal__overlay{
+.modal__overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.modal__body{
+.modal__body {
     margin: auto;
     position: relative;
     z-index: 1;
@@ -82,7 +84,7 @@ html{
 }
 
 /* button style */
-.btn{
+.btn {
     min-width: 142px;
     height: 34px;
     text-decoration: none;
@@ -98,22 +100,22 @@ html{
     align-items: center;
 }
 
-.btn.btn--normal:hover{
+.btn.btn--normal:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.btn.btn--primary{
+.btn.btn--primary {
     color: var(--white-color);
     background-color: var(--primary-color);
 }
 
-.btn.btn--disable{
+.btn.btn--disable {
     cursor: default;
     background-color: #c3c3c3;
     color: #949494;
 }
 
-.btn--size-s{
+.btn--size-s {
     height: 32px;
     font-size: 12px;
     padding: 0 8px;
