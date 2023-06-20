@@ -6,7 +6,7 @@
     --border-color: #dbdbdb;
 
     --header-height: 120px;
-    --navbar-height: 34px;
+    --navbar-height: 47.713px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
 }
 
