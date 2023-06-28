@@ -4,6 +4,9 @@
     --black-color: #000;
     --text-color: #333;
     --border-color: #dbdbdb;
+    --gray-text: #999;
+    --border-bottom: #000;
+    --hover-background: #f7f7f7;
 
     --header-height: 120px;
     --navbar-height: 47.713px;
@@ -22,6 +25,7 @@ html {
     box-sizing: border-box;
 }
 
+/* responsive */
 .grid {
     width: 1200px;
     max-width: 100%;
