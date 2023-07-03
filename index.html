@@ -65,7 +65,7 @@
                                 <ul class="header__notify-list">
                                     <li class="header__notify-item header__notify-item--viewed">
                                         <a href="" class="header__notify-link">
-                                            <img src="./asset/img/noti img/Apex_Legends_C.A.R..png" alt=""
+                                            <img src="./asset/img/noti-img/Apex_Legends_C.A.R..png" alt=""
                                                 class="header__notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">car smg</span>
@@ -75,7 +75,7 @@
                                     </li>
                                     <li class="header__notify-item header__notify-item--viewed">
                                         <a href="" class="header__notify-link">
-                                            <img src="./asset/img/noti img/Kraber.png" alt=""
+                                            <img src="./asset/img/noti-img/Kraber.png" alt=""
                                                 class="header__notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">kraber</span>
@@ -85,7 +85,7 @@
                                     </li>
                                     <li class="header__notify-item header__notify-item--viewed">
                                         <a href="" class="header__notify-link">
-                                            <img src="./asset/img/noti img/peace keeper.png" alt=""
+                                            <img src="./asset/img/noti-img/peace keeper.png" alt=""
                                                 class="header__notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">peace keeper</span>
@@ -95,7 +95,7 @@
                                     </li>
                                     <li class="header__notify-item">
                                         <a href="" class="header__notify-link">
-                                            <img src="./asset/img/noti img/VK-47-Flatline.png" alt=""
+                                            <img src="./asset/img/noti-img/VK-47-Flatline.png" alt=""
                                                 class="header__notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">flatline</span>
@@ -105,7 +105,7 @@
                                     </li>
                                     <li class="header__notify-item">
                                         <a href="" class="header__notify-link">
-                                            <img src="./asset/img/noti img/Wingman.png" alt=""
+                                            <img src="./asset/img/noti-img/Wingman.png" alt=""
                                                 class="header__notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">wingman</span>
@@ -306,27 +306,149 @@
             </div>
         </header>
         <!-- end header -->
-        <div class="container">
-            <nav class="category">
-                <h3 class="category__heading">
-                    <i class="fa-solid fa-list"></i>
-                    Danh mục
-                </h3>
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh mục
+                            </h3>
 
-                <ul class="category-list">
-                    <li class="category-item category-item--active">
-                        <a href="#" class="category-item__link">Light weapon</a>
-                    </li>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Light weapon</a>
+                                </li>
 
-                    <li class="category-item">
-                        <a href="#" class="category-item__link">Heavy weapon</a>
-                    </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Heavy weapon</a>
+                                </li>
 
-                    <li class="category-item">
-                        <a href="#" class="category-item__link">Energy weapon</a>
-                    </li>
-                </ul>
-            </nav>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Energy weapon</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <!-- list option -->
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá : Thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá : Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-number">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(./asset/img/noti-img/Apex_Legends_C.A.R..png);"></div>
+                                        <h4 class="home-product-item__name">car</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">15</span>
+                                            <span class="home-product-item__price-current">20</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">69 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">who</span>
+                                            <span class="home-product-item__origin-name">my</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <footer class="footer">
