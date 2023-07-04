@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Strongest Link",
+        "price_old": "2.000.000vnđ",
+        "price_current": "1.000.000vnđ",
+        "sold": "69 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "50%",
+        "image": "./asset/img/product/Ash heirloom.PNG"
+    },
+    {
+        "name": "Cold Steel",
+        "price_old": "5.000.000vnđ",
+        "price_current": "2.500.000vnđ",
+        "sold": "1099 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "50%",
+        "image": "./asset/img/product/Bandgalore heirloom.PNG"
+    },
+    {
+        "name": "Raven's Bite",
+        "price_old": "10.000.000vnđ",
+        "price_current": "6.000.000vnđ",
+        "sold": "700 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "40%",
+        "image": "./asset/img/product/Bloodhound heirloom.PNG"
+    },
+    {
+        "name": "Death Hammmer",
+        "price_old": "4.000.000vnđ",
+        "price_current": "500.000vnđ",
+        "sold": "20 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "75%",
+        "image": "./asset/img/product/Caustic heirloom.PNG"
+    },
+    {
+        "name": "Biwon Blade",
+        "price_old": "1.000.000vnđ",
+        "price_current": "2.000vnđ",
+        "sold": "1 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "99%",
+        "image": "./asset/img/product/Crypto heirloom.PNG"
+    },
+    {
+        "name": "War Club",
+        "price_old": "7.000.000vnđ",
+        "price_current": "4.000.000vnđ",
+        "sold": "7623 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "55%",
+        "image": "./asset/img/product/Gibraltar heirloom.PNG"
+    },
+    {
+        "name": "Shock Stick",
+        "price_old": "15.000.000vnđ",
+        "price_current": "7.500.000vnđ",
+        "sold": "40269 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "50%",
+        "image": "./asset/img/product/Lifeline heirloom.PNG"
+    },
+    {
+        "name": "Garra de Alanza",
+        "price_old": "6.000.000vnđ",
+        "price_current": "1.500.000vnđ",
+        "sold": "2089 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "25%",
+        "image": "./asset/img/product/Loba heirloom.PNG"
+    },
+    {
+        "name": "Butterfly Knife",
+        "price_old": "20.000.000vnđ",
+        "price_current": "15.000.000vnđ",
+        "sold": "2077 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "25%",
+        "image": "./asset/img/product/Octane heirloom.PNG"
+    },
+    {
+        "name": "Boxing Gloves",
+        "price_old": "1.000.000vnđ",
+        "price_current": "20.000vnđ",
+        "sold": "2 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "89%",
+        "image": "./asset/img/product/Pathfinder heirloom.PNG"
+    },
+    {
+        "name": "Problem Solver",
+        "price_old": "8.000.000vnđ",
+        "price_current": "5.000.000vnđ",
+        "sold": "3266 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "45%",
+        "image": "./asset/img/product/Rampart heirloom.PNG"
+    },
+    {
+        "name": "Dead Man's Curve",
+        "price_old": "5.000.000vnđ",
+        "price_current": "2.500.000vnđ",
+        "sold": "543 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "50%",
+        "image": "./asset/img/product/Revenant heirloom.PNG"
+    },
+    {
+        "name": "Showsroppers",
+        "price_old": "5.000.000vnđ",
+        "price_current": "2.500.000vnđ",
+        "sold": "643 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "50%",
+        "image": "./asset/img/product/Seer heirloom.PNG"
+    },
+    {
+        "name": "Energy Reader",
+        "price_old": "3.000.000vnđ",
+        "price_current": "3.000vnđ",
+        "sold": "3 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "99%",
+        "image": "./asset/img/product/Wattson heirloom.PNG"
+    },
+    {
+        "name": "Hope's Dawn",
+        "price_old": "20.000.000vnđ",
+        "price_current": "15.000.000vnđ",
+        "sold": "2077 đã bán",
+        "brand": "MYTHIC",
+        "origin_name": "HEIRLOOM",
+        "sale": "25%",
+        "image": "./asset/img/product/Wraith heirloom.PNG"
+    }
+]
